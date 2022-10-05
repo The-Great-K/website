@@ -1,0 +1,29 @@
+body {
+    background-color: #000000;
+    font-family: Tahoma, sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+header h1 {
+    text-align: center;
+    color: #ff0000;
+    font-size: 40px;
+}
+
+header h2 {
+    text-align: center;
+    color: #a30000;
+    font-weight: normal;
+    font-size: 20px;
+}
