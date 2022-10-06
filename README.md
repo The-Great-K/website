@@ -1,4 +1,4 @@
 # website
 a website, duh :P
 
-A WEBSITE
+where I post random stuff somewhere that isn't github but is yet still github.
