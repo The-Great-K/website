@@ -8,6 +8,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: #ffffff;
+    background-image: url("../resources/images/background/background.png");
+    background-repeat: no-repeat;
+    background-size: 960px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
@@ -19,6 +22,8 @@ header h1 {
     text-align: center;
     color: #ff0000;
     font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 header h2 {
@@ -26,4 +31,10 @@ header h2 {
     color: #a30000;
     font-weight: normal;
     font-size: 20px;
+    margin-top: 0px;
+}
+
+.main {
+    border-top: 3px solid #000000;
+    border-bottom: 3px solid #000000;
 }
