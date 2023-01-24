@@ -38,3 +38,45 @@ header h2 {
     border-top: 3px solid #000000;
     border-bottom: 3px solid #000000;
 }
+
+.nav {
+    margin-top: 10px;
+}
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+.nav li {
+    list-style: none;
+    float: left;
+}
+.nav a {
+    display: block;
+    background-color: #8a7606;
+    color: #740000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid #000000;
+    border-bottom: none
+}
+.nav a:hover {
+    background-color: #000000
+}
+
+
+/* Clear Fix */
+.fix {
+    clear: both;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom: 1;
+}
