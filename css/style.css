@@ -1,46 +1,79 @@
-body {
+html {
+    height: 100%;
+    background-color: #181818;;
+}
+
+body{
+    margin: 0;
+    color: #dc0000;
+}
+
+.header {
     background-color: #000000;
-    font-family: Tahoma, sans-serif;
+    width: 100%;
+    height: auto;
+    border: none;
+    outline: 0;
 }
 
-.container {
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #ffffff;
-    background-image: url("../resources/images/background/background.png");
-    background-repeat: no-repeat;
-    background-size: 960px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    box-sizing: border-box;
-}
-
-header h1 {
-    text-align: center;
-    color: #ff0000;
+.title {
     font-size: 40px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 50%;
 }
 
-header h2 {
-    text-align: center;
-    color: #a30000;
-    font-weight: normal;
+.subtitle {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 20%;
+    padding-right: 30%;
+}
+
+.info {
     font-size: 20px;
-    margin-top: 0px;
+    padding-left: 5%;
 }
 
-.main {
-    border-top: 3px solid #000000;
-    border-bottom: 3px solid #000000;
+.download-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 4fr;
+    column-gap: 5px;
+}
+.download-text {
+    font-size: 30px;
+    text-align: center;
+}
+.download {
+    max-width: 100%;
+}
+
+.showcase-container {
+    margin-top: 10px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 4fr;
+    column-gap: 5px;
+}
+.showcase-text {
+    font-size: 50px;
+    text-align: center;
+}
+.showcase {
+    max-width: 100%;
+}
+
+header {
+    display: block;
+}
+
+a {
+    color: #8a7606;
 }
 
 .nav {
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .nav ul {
     margin: 0;
@@ -50,21 +83,24 @@ header h2 {
     list-style: none;
     float: left;
 }
+.text {
+    font-size: 50px;
+    margin-top: 30px;
+}
+.logo {
+    margin-top: 5px;
+}
 .nav a {
     display: block;
-    background-color: #8a7606;
     color: #740000;
+    padding-right: 50px;
     text-decoration: none;
-    padding: 10px 20px;
-    border: 3px solid #000000;
-    border-bottom: none
+    border-bottom: none;
 }
 .nav a:hover {
-    background-color: #000000
+    color: #8a7606;
 }
 
-
-/* Clear Fix */
 .fix {
     clear: both;
 }
